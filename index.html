@@ -219,6 +219,21 @@
   .sponsor-card .ic{width:38px;height:38px;border-radius:50%;background:linear-gradient(135deg,var(--green),var(--navy));display:flex;align-items:center;justify-content:center;color:#fff;font-size:1.25rem;font-weight:700;line-height:1}
   .sponsor-card .t{font-family:'Poppins',sans-serif;font-weight:600;font-size:.92rem;color:var(--navy-deep)}
   .sponsor-card .s{font-size:.72rem;letter-spacing:.05em;color:var(--muted);text-transform:uppercase}
+
+  @media(max-width:620px){
+    .tier-grid{grid-template-columns:1fr}
+    .logo-img{height:40px}
+    header.scrolled .logo-img{height:36px}
+    .sponsor-card{width:190px;height:104px}
+    .footer-logo img{height:40px}
+    .hero h1{font-size:clamp(2rem,8vw,2.6rem)}
+    .section-head h2,.contact h2{font-size:clamp(1.6rem,7vw,2.1rem)}
+  }
+  @media(max-width:400px){
+    .nav-links{width:84%}
+    .hero-cta{flex-direction:column}
+    .hero-cta .btn{width:100%}
+  }
 </style>
 </head>
 <body>
@@ -254,7 +269,7 @@
       </div>
     </div>
     <div class="hero-stats">
-      <div class="stat-card"><span class="num">30+</span><span class="lbl">Idosos Atendidos</span></div>
+      <div class="stat-card"><span class="num">80+</span><span class="lbl">Idosos Atendidos</span></div>
       <div class="stat-card"><span class="num">5</span><span class="lbl">Profissionais</span></div>
       <div class="stat-card"><span class="num">1×</span><span class="lbl">Por Semana</span></div>
     </div>
@@ -292,7 +307,7 @@
       <h2>Resultados reais, vidas transformadas</h2>
     </div>
     <div class="impact-grid">
-      <div class="impact-card reveal"><div class="num">30+</div><div class="lbl">Idosos Atendidos</div></div>
+      <div class="impact-card reveal"><div class="num">80+</div><div class="lbl">Idosos Atendidos</div></div>
       <div class="impact-card reveal"><div class="num">5</div><div class="lbl">Profissionais de Ed. Física</div></div>
       <div class="impact-card reveal"><div class="num">1×</div><div class="lbl">Atividades por Semana</div></div>
       <div class="impact-card reveal"><div class="num">100%</div><div class="lbl">Dedicação e Cuidado</div></div>
